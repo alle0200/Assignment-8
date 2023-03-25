@@ -121,12 +121,14 @@ main {
 
 article, section {
   flex: 4;
+/*  width: 75%;*/
 }
 
 aside {
   flex: 1;
   margin-left: 10px;
   padding: 1%;
+/*  width: 25%;*/
 }
 
 aside a {
@@ -148,6 +150,7 @@ footer {
 
 main {
   flex: 3;
+  display: flex;
 }
 
 .flex-container {
